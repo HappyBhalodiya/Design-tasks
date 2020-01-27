@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+
+	<div class="topHeader">
+		
+		<ul class="mdc-list contact">
+			
+			<li class="mdc-list-item call" tabindex="0">
+				<span class="mdc-list-item__text number">call 1800 22 7979 | Select Currency:</span>
+				
+			</li>
+
+			
+			<div class="mdc-select">
+					<i class="mdc-select__dropdown-icon"></i>
+					<select class="mdc-select__native-control">
+						<option value="" selected>INR</option>
+						<option value="abc">ABC</option>
+						<option value="xyz">XYZ</option>
+						
+					</select>
+					
+					<div class="mdc-line-ripple"></div>
+				</div>
+			<div class="secondpart">
+
+				<button class="mdc-button--dense" id="b1">
+					<span class="mdc-button__label">SIGN IN</span>
+				</button>
+				<div class="mdc-dialog firstbtn" role="alertdialog" aria-modal="true"aria-labelledby="my-dialog-title"
+				aria-describedby="my-dialog-content">
+				<div class="mdc-dialog__container">
+					<div class="mdc-dialog__surface">
+
+						<h2 class="mdc-dialog__title" id="my-dialog-title">Sign In
+						</h2>
+						<div class="mdc-dialog__content textDialog" id="my-dialog-content">
+							<div class="mdc-text-field email">
+								<input type="text" id="my-text-field" class="mdc-text-field__input">
+								<label class="mdc-floating-label" for="my-text-field">Email</label>
+							</div></br>
+							<div class="mdc-text-field password">
+
+								<input type="text" id="my-text-field" class="mdc-text-field__input">
+								<label class="mdc-floating-label" for="my-text-field">Password</label>
+							</div>
+							<footer class="mdc-dialog__actions">
+								<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="no" >
+									Cancle
+								</button>
+								<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="yes" id="canclebtn">Ok
+
+								</button>
+							</footer>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<button class="mdc-button--dense" id="b2">
+				<span class="mdc-button__label">REGISTER</span>
+			</button>
+			<div class="mdc-dialog secondbtn" role="alertdialog" aria-modal="true"aria-labelledby="my-dialog-title"
+			aria-describedby="my-dialog-content">
+			<div class="mdc-dialog__container">
+				<div class="mdc-dialog__surface">
+
+					<h2 class="mdc-dialog__title" id="my-dialog-title">Register
+					</h2>
+					<div class="mdc-dialog__content textDialog" id="my-dialog-content">
+						<div class="mdc-text-field rname">
+							<input type="text" id="name" class="mdc-text-field__input">
+							<label class="mdc-floating-label" for="my-text-field">Name
+							</label>
+						</div></br>
+						<div class="mdc-text-field rphone">
+							<input type="text" id="phone" class="mdc-text-field__input">
+							<label class="mdc-floating-label" for="my-text-field">Phone</label>
+						</div></br>
+						<div class="mdc-text-field remail">
+							<input type="text" id="email" class="mdc-text-field__input">
+							<label class="mdc-floating-label" for="my-text-field">Email</label>
+						</div></br>
+						<div class="mdc-text-field rpassword">
+
+							<input type="text" id="my-text-field " class="mdc-text-field__input">
+							<label class="mdc-floating-label" for="my-text-field">Password</label>
+						</div>
+						<footer class="mdc-dialog__actions">
+							<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="no"  id="canclebtn1">
+								Cancle
+							</button>
+							<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="yes"  onclick="getValue()">Ok
+
+							</button>
+						</footer>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</ul>
+
+
+
+</div>
+
+
+<div class="middleheader">
+
+	<img src="img/3.png" class="sHeaderImg">
+	<ul class="mdc-list menu">
+		<li class="mdc-list-item" tabindex="0">
+			<span class="mdc-list-item__text txtcolor">International Tours</span>
+		</li>
+		<li class="mdc-list-item">
+			<span class="mdc-list-item__text txtcolor">India Tours</span>
+
+		</li>
+		<li class="mdc-list-item">
+			<span class="mdc-list-item__text txtcolor">Speciality Tours</span>
+
+		</li>
+		<li class="mdc-list-item">
+			<span class="mdc-list-item__text txtcolor">Place To Visit</span>
+
+		</li>
+		<li class="mdc-list-item">
+			<span class="mdc-list-item__text txtcolor">Blog</span>
+
+		</li>
+		<li class="mdc-list-item">
+			<span class="mdc-list-item__text txtcolor">Contact</span>
+
+		</li>
+
+	</ul>
+
+
+</div>
+
+<div class=" buttomheader">
+
+	<div class="mdc-text-field searchbar  mdc-text-field--no-label"">
+		<i class="material-icons mdc-list-item__graphic" aria-hidden="true">search</i>
+		<input type="text" id="my-text-field" class="mdc-text-field__input" placeholder="Where Would you like to go?" aria-label="Label">
+		<button class="mdc-button--dense buttonletsgo">
+			<span class="mdc-button__label">Let's Go</span>
+		</button>
+
+	</div>
+
+</div>
+
+
+<div class="backgroundimage">
+	<div class="mdc-layout-grid__inner">
+		<div class="mdc-layout-grid__cell--span-4 bigImgContent">
+			<h1 class="mdc-typography--headline4 ">SUMMER OFFERS</h1>
+
+
+			<p style="color: black;">In publishing, art, and communication, content is the information and experiences that are directed towards an end-user or audience. Content is "something that is to be expressed through some medium, as speech, writing or any of various arts
+			</p>
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid__inner">
+		<div class="mdc-layout-grid__cell--span-4"></div>
+		<div class="mdc-layout-grid__cell--span-8">
+			<h1 class="mdc-typography--headline4"><b>Eeatured Travel</b><span class="destination"><b>  DESTINATION</b></span></h1>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid__inner">
+		<div class="mdc-layout-grid__cell--span-1">
+
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="title1">
+				<h2>ASIA</h2>
+
+			</div>
+			<div class="box1">
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>Las Vegas</p>
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>Los Angeles</p>
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>New York</p>
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>Orlando</p>
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>SanFranciso</p>
+				<p> <!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> -->>Washington DC</p>
+				<p class="Viewmore1"><!-- <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chevron_right</i> --><b>> + View More</b></p>
+			</div>
+
+
+
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="title2">
+				<h2>AMERICAS</h2>
+
+			</div>
+			<div class="box2">
+				<p> > Las Vegas</p>
+				<p> > Los Angeles</p>
+				<p> > New York</p>
+				<p> > Orlando</p>
+				<p> > SanFranciso</p>
+				<p> > Washington DC</p>
+				<p class="Viewmore2"><b> > + View More</b></p>
+			</div>
+
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="title3">
+				<h2>EUROPE</h2>
+
+			</div>
+			<div class="box3">
+				<p> > Las Vegas</p>
+				<p> > Los Angeles</p>
+				<p> > New York</p>
+				<p> > Orlando</p>
+				<p> > SanFranciso</p>
+				<p> > Washington DC</p>
+				<p class="Viewmore3"><b> > + View More</b></p>
+			</div>
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="title4">
+				<h2>AFRICA</h2>
+
+			</div>
+			<div class="box4">
+				<p> > Las Vegas</p>
+				<p> > Los Angeles</p>
+				<p> > New York</p>
+				<p> > Orlando</p>
+				<p> > SanFranciso</p>
+				<p> > Washington DC</p>
+				<p class="Viewmore4"><b> > + View More</b></p>
+			</div>
+
+
+
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="title5">
+				<h2>AUSTRALIA</h2>
+
+			</div>
+			<div class="box5">
+				<p> > Las Vegas</p>
+				<p> > Los Angeles</p>
+				<p> > New York</p>
+				<p> > Orlando</p>
+				<p> > SanFranciso</p>
+				<p> > Washington DC</p>
+				<p class="Viewmore5"> <b>> + View More</b></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="mdc-layout-grid AbourUs">
+	<center><h1 class="mdc-typography--headline4"><b>Our </b><span class="mission"><b>MISSION</b></span></h1></center>
+	<div class="mdc-layout-grid__inner">
+
+		<div class="mdc-layout-grid__cell--span-1 "></div>
+		<div class="mdc-layout-grid__cell--span-4 AboutImg">
+			<img src="img/2.jpg">
+		</div> 
+		<div class="mdc-layout-grid__cell--span-6 ">
+
+			<h3 style="float: left;">About Us</h3>
+			<p></p>
+
+			<p style="float: left;">Sidharth Malhotra (born 16 January 1985) is an Indian actor who appears in Hindi films. Malhotra began a career as a model at the age of 18. Dissatisfied by the profession, he went on to work as an assistant director to Karan Johar in the 2010 film My Name Is Khan. He made his acting debut with a leading role in Johar's teen drama Student of the Year (2012), for which he received a Filmfare Award for Best Male Debut nomination.</p>
+
+			<button class="mdc-button--dense ReadMorebutton">
+				<span class="mdc-button__label ">READ MORE</span>
+			</button>
+
+		</div>
+		<div class="mdc-layout-grid__cell--span-1"></div>
+
+	</div>
+
+</div>
+
+<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid__inner ">
+		<div class="mdc-layout-grid__cell--span-1"></div>
+		<div class="mdc-layout-grid__cell--span-9">
+			<div class="mdc-layout-grid">
+				<h1><center>India<span style="color: orange;"> TOURS</span></center></h1>
+				<div class="mdc-layout-grid__inner ImgGallery">
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-card ">
+							<div class="mdc-image-list__image-aspect-container">
+								<img class="mdc-image-list__image imggallery1" src="img/4.jpg">
+							</div>
+							<div class="size">
+								<h5 class="cardtitle">Andaman Tour Packages</h5>
+								<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+								<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+									<span class="mdc-button__label">View More </span>
+								</button>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-card">
+							<div class="mdc-image-list__image-aspect-container">
+								<img class="mdc-image-list__image imggallery1" src="img/5.jpg">
+							</div>
+							<div class="size">
+								<h5 class="cardtitle">Andaman Tour Packages</h5>
+								<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+								<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+									<span class="mdc-button__label ">View More </span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-card">
+							<div class="mdc-image-list__image-aspect-container">
+								<img class="mdc-image-list__image imggallery1" src="img/6.jpg" >
+							</div>
+							<div class="size">
+								<h5 class="cardtitle">Andaman Tour Packages</h5>
+								<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+								<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+									<span class="mdc-button__label">View More </span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="mdc-layout-grid ">
+				<div class="ImgGallery">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="mdc-card">
+								<div class="mdc-image-list__image-aspect-container">
+									<img class="mdc-image-list__image imggallery1" src="img/7.jpg" >
+								</div>
+								<div class="size">
+
+									<h5 class="cardtitle">Andaman Tour Packages</h5>
+									<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+									<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+										<span class="mdc-button__label">View More </span>
+									</button>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="mdc-card">
+								<div class="mdc-image-list__image-aspect-container">
+									<img class="mdc-image-list__image imggallery1" src="img/8.jpg" >
+								</div>
+								<div class="size">
+
+									<h5 class="cardtitle">Andaman Tour Packages</h5>
+									<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+									<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+										<span class="mdc-button__label">View More </span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="mdc-card">
+								<div class="mdc-image-list__image-aspect-container">
+									<img class="mdc-image-list__image" src="img/9.jpg">
+								</div>
+								<div class="size">
+
+									<h5 class="cardtitle">Andaman Tour Packages</h5>
+									<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+									<button class="mdc-button viewbutton" style="background-color: #8E44AD;">
+										<span class="mdc-button__label">View More </span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mdc-layout-grid__cell--span-1"></div>
+	</div>
+</div>
+
+
+<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid__inner">
+		<div class="mdc-layout-grid__cell--span-4"></div>
+		<div class="mdc-layout-grid__cell--span-8">
+			<h1 class="mdc-typography--headline4">Best Selling <span style="color:#137aba;">HOLYDAYS</span></h1>
+
+		</div>
+	</div>
+</div>
+<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid__inner">
+		<div class="mdc-layout-grid__cell--span-3"></div>
+		<div class="mdc-layout-grid__cell--span-9">
+			<div class="mdc-layout-grid tab_section">
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt1">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn1">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt2">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn2">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt3">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn3">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+			<div class="mdc-layout-grid tab_section">
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt4">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn4">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt5">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn5">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt6">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn6">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+			<div class="mdc-layout-grid tab_section">
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt1">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn1">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt2">Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn2">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="tebs">
+							<label>(3N/4D)</label>
+							<h3 class="teb_txt3"e>Rs.6800</h3>
+							<p class="mdc-typography--caption">Per Person</p>
+							<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+							<center><button class="mdc-button--dense teb_btn3">
+								<span class="mdc-button__label ">VIEW MORE</span>
+							</button></center>
+						</div>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="mdc-layout-grid recentbg">
+	<h1><center>Recent Traveller<span style="color: red;"> REVIEWS</span></center></h1>
+	<div class="mdc-layout-grid__inner ">
+		<div class="mdc-layout-grid__cell--span-2"></div>
+		<div class="mdc-layout-grid__cell--span-8">
+			<center><img src="img/2.jpg" class="recentimg"></center>
+			<center>
+				<span style="font-size: 20px; color: red;">JHON DO
+				</span>
+			</br>
+			<span style="font-size: 15px; color: #aaa; text-align: center;">Director, We Care Holidays</span>
+
+			<p>Sidharth Malhotra (born 16 January 1985)[1][2] is an Indian actor who appears in Hindi films. Malhotra began a career as a model at the age of 18. Dissatisfied by the profession, he went on to work as an assistant director to Karan Johar in the 2010 film My Name Is Khan. He made his acting debut with a leading role in Johar's teen drama Student of the Year (2012), for which he received a Filmfare Award for Best Male Debut nomination.</p>
+		</center>
+
+
+	</div>
+	<div class="mdc-layout-grid__cell--span-2"></div>
+</div>
+
+
+
+</div>
+
+
+<footer>
+	<div class="mdc-layout-grid footer1">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-2">
+
+			</div>
+			<div class="mdc-layout-grid__cell--span-3">
+
+				<p class="mdc-typography--headline6 about">ABOUT US</p>
+				<p class="footerabout_p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as </p>
+
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-2">
+						<img src="img/10.png" class="footerimg">
+					</div>
+					<div class="mdc-layout-grid__cell--span-10">
+						<p class="footerabout_p">Street addresses: 445 Mount Eden Road, Mount Eden, Auckland.
+							Rural addresses: 21 Greens Road RD 2 Ruawai 0592.
+							Partial addresses: Main Highway Otaki; 32 Wilson Street.
+						Postcodes: 5022.</p>
+					</div>	
+				</div>	
+
+
+			</div>
+			<div class="mdc-layout-grid__cell--span-1"></div>
+			<div class="mdc-layout-grid__cell--span-6">
+				<p class="mdc-typography--headline6 ">OUR DESTINATIONSS</p>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-2 footermargin">
+						<p class="mdc-typography--subtitle footert1">EUROPE</p>
+						<p class="footerabout_p"><label class="footert1">></label> Austria</p>
+						<p class="footerabout_p"><label class="footert1">></label> India</p>
+						<p class="footerabout_p"><label class="footert1">></label> New York</p>
+						<p class="footerabout_p"><label class="footert1">></label> Orlando</p>
+						<p class="footerabout_p"><label class="footert1">></label> Russia</p>
+						<p class="footerabout_p"><label class="footert1">></label> Spain</p>
+						<p class="footerabout_p"><label class="footert1">></label> Switserland</p>
+						<p class="footerabout_p"><label class="footert1">></label> France</p>
+
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-2  footermargin">
+						<p class="mdc-typography--subtitle footerdestination">INDIA</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> Austria</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> India</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> New York</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> Orlando</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> Russia</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> Spain</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> Switserland</p>
+						<p class="footerabout_p"><label class="footerdestination">></label> France</p>
+						<p class="footerabout_p"><label class="footert1">></label> New York</p>
+						<p class="footerabout_p"><label class="footert1">></label> Orlando</p>
+
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-2  footermargin">
+						<p class="mdc-typography--subtitle footert3">USA</p>
+						<p class="footerabout_p"><label class="footert3">></label> Austria</p>
+						<p class="footerabout_p"><label class="footert3">></label> India</p>
+						<p class="footerabout_p"><label class="footert3">></label> New York</p>
+						<p class="footerabout_p"><label class="footert3">></label> Orlando</p>
+						<p class="footerabout_p"><label class="footert3">></label> Switserland</p>
+						<p class="footerabout_p"><label class="footert3">></label> France</p>
+
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-2  footermargin">
+						<p class="mdc-typography--subtitle footert4">FAR EAST</p>
+						<p class="footerabout_p"><label class="footert4">></label> Austria</p>
+						<p class="footerabout_p"><label class="footert4">></label> India</p>
+						<p class="footerabout_p"><label class="footert4">></label> New York</p>
+						<p class="footerabout_p"><label class="footert4">></label> Orlando</p>
+						<p class="footerabout_p"><label class="footert4">></label> Russia</p>
+						<p class="footerabout_p"><label class="footert4">></label> Spain</p>
+						<p class="footerabout_p"><label class="footert4">></label> Switserland</p>
+						<p class="footerabout_p"><label class="footert4">></label> France</p>
+						<p class="footerabout_p"><label class="footert5">></label> Russia</p>
+						<p class="footerabout_p"><label class="footert5">></label> Spain</p>
+
+					</div>
+					<div class="mdc-layout-grid__cell--span-4  footermargin">
+						<p class="mdc-typography--subtitle footert5">AFRICA</p>
+						<p class="footerabout_p"><label class="footert5">></label> Austria</p>
+						<p class="footerabout_p"><label class="footert5">></label> India</p>
+						<p class="footerabout_p"><label class="footert5">></label> New York</p>
+						<p class="footerabout_p"><label class="footert5">></label> Orlando</p>
+						<p class="mdc-typography--subtitle footert6">MIDDLE EAST</p>
+						<p class="footerabout_p"><label class="footert6">></label> Russia</p>
+						<p class="footerabout_p"><label class="footert6">></label> Spain</p>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="mdc-layout-grid__inner footerbottom">
+			<div class="mdc-layout-grid__cell--span-12">
+				<center><p>@ 2018 TMG.All Rights Reserved</p></center>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+
+
+
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>	

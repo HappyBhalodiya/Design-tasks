@@ -1,0 +1,168 @@
+body{
+	font-family: 'robotoregular';
+}
+.header-top{
+	width: auto;
+	background-color: #ccc;
+	height: 50px;
+	padding: 10px;
+}
+.social{
+	float: left;
+	margin: 3px;
+}
+.details{
+	float: right;
+}
+
+.email{
+	border-left: 2px solid black ;
+	margin: 5px;
+    padding: 10px
+}
+.fa{
+	margin-right: 10px;
+}
+.header-bottam{
+	width: auto;
+	height: 80px;
+	background-color: #bbb;
+	padding: 10px;
+}
+.imghader{
+	float: left;
+}
+.spart{
+	float: right;
+	display: inline;
+	margin: 5px;
+
+	padding: 5px;
+}
+.imglogo{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	
+}
+a {
+	margin: 10px;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.show {
+	display: block;
+}
+
+/*.tabimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+
+}*/
+.menu1{
+	width: auto;
+	height: 390px;
+	background-color: #aaa;
+}
+.disabledTab{
+	pointer-events: none;
+}
+
+.alert{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	display: table;
+}
+.dropbtn1 {
+
+	color: white;
+	border: none;
+}
+
+.dropdown1 {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdowncontent {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdowncontent a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdowncontent a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdowncontent {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #aaa;}
+
+
+.img_box{
+	position: relative;
+	height:500px;
+	border:1px solid black;
+	overflow: hidden;
+}
+.img_container{
+	top: 0;
+	left:0;
+	right:0;
+	bottom: auto;
+	height: 900px;
+	position: absolute;
+	transition: all 1s;
+}
+.img_container img{
+width: 100%;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+

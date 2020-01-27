@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stepper</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background-color: gray;">
+	<h1 style="margin: 86px;">Gmail</h1>
+	<ul class="stepper">
+		<li class="stepper__item complete" style="border: 2px solid black;"><a href="index.html" style="text-decoration: none;">Step 1</a></li>
+		<li class="stepper__item current" style="border: 2px solid black;"><a href="signup.html" style="text-decoration: none; ">Step 2</a></li>
+		<li class="stepper__item" style="border: 2px solid black;"><a href="welcomeGoogle.html" style="text-decoration: none;">Step 3</a></li>
+		<li class="stepper__item" style="border: 2px solid black;"><a href="gmailMainPage.html" style="text-decoration: none;">Step 4</a></li>
+		
+	</ul>
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$('.wizard li').click(function() {
+			$(this).prevAll().addClass("completed");
+			$(this).nextAll().removeClass("completed")
+
+		});
+	</script>
+</body>
+</html>

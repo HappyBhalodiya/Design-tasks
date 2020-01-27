@@ -1,0 +1,115 @@
+body *{
+	box-sizing: border-box;
+
+	/*background-color: #ADD8E6;*/
+	margin: 0px;
+
+}
+.main{
+	background-color: #e7e7e7;
+}
+
+table, td, th{
+	border: 2px solid black;
+	border-collapse: collapse;
+
+	
+
+}
+span{
+	display: block;
+}
+td{
+	text-align: left;
+	font-family: 'work_sansregular'
+
+}
+th{
+	text-align: left;
+	font-family: 'work_sansbold';
+}
+
+form{
+	background-color: pink;
+	padding: 5px;
+	border: 2px solid black;
+
+	
+}
+h3{
+	font-family: 'work_sansbold';
+}
+
+.imgsave{
+	width: 25px;
+	height: auto;
+}
+
+textarea{
+	 resize: none;
+	overflow: auto;
+	width: 100%;
+}
+
+ 
+@font-face {
+	font-family: 'work_sansbold';
+	src: url('../fonts/worksans-bold-webfont.eot');
+	src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+
+@font-face {
+	font-family: 'work_sansregular';
+	src: url('../fonts/worksans-regular-webfont.eot');
+	src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+#loader {
+
+	content: url('../img/loader.gif');
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top:0;
+	margin: auto;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+
+#myDiv {
+	display: none;
+
+
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+footer{
+	background-color: blue;
+	color: white;
+}
+strong{
+	color: black;
+}
+

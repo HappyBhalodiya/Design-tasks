@@ -1,0 +1,34 @@
+
+.mdc-image-list--masonry{
+  display: block;
+}
+.mdc-image-list{
+flex-wrap: wrap;
+margin: 0 auto;
+padding: 0;
+}
+.my-masonry-image-list{
+  column-count: 5;
+  max-width: 900px;
+}
+.my-masonry-image-list .mdc-image-list__item{
+  margin-bottom: 16px;
+}
+@media (max-width: 1199px){
+  .my-masonry-image-list{
+    column-count: 4;
+  }
+}
+@media (max-width: 991px){
+  .my-masonry-image-list{
+    column-count: 3;
+  }
+}
+@media (max-width: 557px){
+  .my-masonry-image-list{
+    column-count: 2;
+  }
+}
+.text{
+  text-align: center;
+}

@@ -1,0 +1,320 @@
+	body {
+	margin: 0;
+	/* display: flex;*/
+	height: 90vh;
+	font-family: 'Google Sans',arial,sans-serif;
+	}
+	body *{
+	box-sizing: border-box;
+	}
+
+	/*.mdc-text-field{
+	margin: 10px 30px;
+
+	}*/
+	.cardLogin{
+	margin: 20px 50px;
+	padding: 20px;
+	border: 2px solid lightgray;
+	width: 500px;
+	margin: 0px auto;
+	height: 510px;
+	margin-top: 65px;
+	border-radius: 2%;
+	}
+	.cardReg{
+	margin: 20px 50px;
+	padding: 20px;
+	border: 2px solid lightgray;
+	width: 60%;
+	margin: 0px auto;
+	height: 510px;
+	margin-top: 65px;
+	border-radius: 2%;
+	}
+
+	.card-title{
+	padding: 5px;
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+	}
+
+	.logoLogin{
+	width: 120px;
+	margin: 40px auto;
+	}
+	.remail{
+		margin: 10px;
+	}
+	.rpassword{
+		margin: 10px;
+	}
+
+	.p{
+	margin: none;
+	padding: 0px;
+	}
+	.mdc-button--raised{
+	background-color: #5500ff;
+	}
+	.topSignin{
+	font-family: Arial, Helvetica, sans-serif; 
+	text-align: center;
+	font-size: 20px;
+	}
+	.wyga{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: gray;
+	margin: 10px;
+	}
+	.forget{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:16px;
+	font-size: 16px;
+	color: #4285f4 !important;
+	}
+	.content{
+	font-family: Arial, Helvetica, sans-serif ;
+	margin-left: 16px;
+	color: gray;
+	height: 5px;
+	font-size: 14px;
+	}
+	.learnmore{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:16px;
+	font-size: 14px;
+	color: #4285f4 !important;
+	}
+	.createAccount{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: blue;
+	margin-left: 16px;
+	color: #4285f4 !important;
+
+	}
+	.bottom{
+	margin-left: 90px;
+	color: gray;
+	font-size: 14px;
+	}
+	.bottom2{
+	color: gray;
+	font-size: 14px;
+	}
+	.buttonView{
+	background-color: #1a73e8 !important;
+	}
+	/*-------------------------------------------*/
+	.bodySignup{
+	padding: 20px;
+	font-family: 'Google Sans',arial,sans-serif;
+	}
+
+	.creatyouraccount{
+	font-size: 22px;
+	font-family: 'Google Sans',arial,sans-serif;
+
+	margin-top: 13px;
+	}
+	.logoSignup{
+	width: 80px;
+	margin-top: 30px;
+
+
+	}
+	.cardReg{
+	margin: 20px 50px;
+	height: 520px;
+	border: 2px solid lightgray;
+	width: 60%;
+	margin: 0px auto;
+	padding: 20px;
+	margin-top: 65px;
+	border-radius: 2%;
+	}
+	.googlesidelogo{
+	margin-top: 80px;	
+	float: right;
+	}
+	.sLname{
+	/*	margin-left: -33px;*/
+	height: 45px;
+	}
+	.sFname{
+
+	height: 45px;
+	}
+	.sname{
+	font-size: 14px;
+	height: 20px;
+	padding: 7px 11px;
+	}
+	.sUsername{
+	height: 45px;
+
+	width: 100%;
+	margin-top: 10px;
+	}
+	.ycul{
+	font-size: 14px;
+	margin: 10px 0px 0px 0px;
+	color: gray;
+	}
+	.gmailcom{
+	float: right;
+
+	}
+	.umce{
+	color: #4285f4 !important;
+	font-size: 14px;
+	text-transform: initial;
+	}
+	.sPassword{
+
+	height: 45px;
+
+
+	}
+	.sConfirm{
+	/*margin-left: -25px;*/
+	height: 45px;
+	}
+	.visibilityicon i{
+	color: black;
+	margin-top: 12px;
+	margin-left: 0px;
+
+	}
+	.mdc-text-field{
+	width: 100%;
+	}
+	.bottomSignup{
+	margin-top: 50px;
+	}
+	.signininstead{
+	color: #4285f4 !important;
+	margin-left: 0px;
+	text-transform: initial;
+	}
+	.bootamPage{
+	color: gray;
+	margin-top: 5px;
+	font-size: 15px;
+	}
+	.buttonNext{
+	background-color: #4285f4 !important;
+	}
+	/*---------------------------------------------------------------*/
+	.welcomeBody{
+	/*padding: 20px;*/
+	}
+	/*.cardWelcome{
+	margin: 20px 50px;
+	height: 700px;
+	border: 2px solid lightgray;
+	width: 60%;
+	margin: 0px auto;
+
+	margin-top: 65px;
+	border-radius: 2%;
+	}*/
+	.welcomeName{
+
+	font-size: 23px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	.emailname{
+	font-size: 14px;
+	}
+	.sPhone{
+	margin: 50px 0px 0px 0px;
+	}
+	.accountSecure{
+	font-size: 14px;
+	color: gray;
+	margin-top: 14px;
+	}
+	.gender{
+	width: 100%;
+	margin-top: 20px;
+	}
+	.whyWeask{
+	margin-top: 40px;
+	font-size: 15px;
+	color: gray;
+	}
+	.sideImgWelcome {
+
+	margin: 237px 30px 0px 0px;
+	/*float: right*/;
+	}
+	.sRecoveryemail{
+	height: 45px;
+	width: 100%;
+	margin-top: 30px;
+	}
+
+	.d1{
+	margin: 50px 0px 0px 0px;
+	width: 100%;
+
+	}
+	.bottomButton{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	}
+	.sDay{
+	height: 45px;
+	margin: 54px 0px 0px 0px;
+	}
+	.sYear{
+	height: 45px;
+	margin: 54px 0px 0px 0px;
+	}
+	.flag{
+	margin: 50px 0px 0px 0px;
+	width: 100%;
+
+	}
+
+	.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above,
+	.mdc-select--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {
+    transform: translateY(-80%) scale(0.75)!important;
+}
+.mdc-text-field,
+.mdc-select {
+    height: 35px!important;
+}
+.mdc-text-field--outlined .mdc-floating-label,
+.mdc-select--outlined .mdc-floating-label {
+    top: 8px!important;
+}
+.mdc-select__dropdown-icon{
+	bottom: 6px!important;
+}
+.mdc-select__native-control{
+	height: 100%!important;
+	padding: 5px 52px 5px 16px!important
+}
+/*---------------------------------------------------------*/
+
+.contactCard{
+
+	margin: 0 auto;
+	width: 500px;
+	padding: 50px;margin-top: 45px;
+}
+.contactno{
+
+	margin-top: 15px;
+}
+.submitbtn{
+
+	margin-top: 15px;
+}

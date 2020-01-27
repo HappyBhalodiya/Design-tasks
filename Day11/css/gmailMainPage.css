@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+
+}
+
+
+.app-bar {
+  position: absolute;
+
+}
+.list1, .list2, .list3{
+	font-family: baseline;
+}
+
+.demo-menu{
+
+  background-color: black;
+
+
+}
+.imgGmail{
+	width: 30px;
+	height: 30px;
+  margin-left: 10px;
+
+}
+.imgSearch{
+  padding: 5px;
+}
+.name{
+  margin-left: 20px;
+  height: 30px;
+  width: 50%;
+}
+.mdc-text-field{
+  height: none;
+}
+
+.mdc-top-app-bar{
+  background-color: white;
+}
+.mdc-drawer{
+  margin-top: 80px;
+}
+.mdc-drawer__header{
+  padding: 0px;
+}
+.checkbox{
+  width: 17px;
+  height: 17px
+}
+.contantList{
+  margin-left: 
+}
+p{
+  margin: 5px;
+  /* margin-left: 100px;*/
+}
+.happy{
+  margin: 5px;
+}
+.p2{
+  float: right;
+
+}
+.mdc-layout-grid__inner{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+.rightButtons{
+  float: right;
+  margin-left: 550px;
+}

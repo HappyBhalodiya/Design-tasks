@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: pink;
+}
+body *{
+  box-sizing: border-box;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-bar {
+  /*position: absolute;*/
+  position: fixed,
+   top: 0,
+
+}
+.list1, .list2, .list3{
+	font-family: baseline;
+}
+
+
+.mdc-drawer{
+  margin-top: 80px;
+}
+.mdc-drawer__header{
+  padding: 0px;
+}
+.textDialog{
+  display: block;
+}
+.mdc-text-field{
+  margin: 20px 50px;
+
+}
+.mdc-card{
+  margin: 20px 50px;
+  padding: 20px 50px;
+  border: 2px solid gray;
+  width: 500px;
+  margin: 0px auto;
+}
+
+.card-title{
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+.mdc-menu{
+
+ position: absolute;
+ margin-top: 67px;
+ margin-left: 86%;
+}
+.drawer{
+  position: fixed;
+}
+.headerLogo{
+  margin: 15px;
+  margin-left: 20px;
+}
+/*.regbgcolor{
+  background-color: orange;
+}
+*/

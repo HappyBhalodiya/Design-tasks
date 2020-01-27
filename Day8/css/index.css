@@ -1,0 +1,23 @@
+/*.mdc-menu-surface{
+	opacity: 1;
+	display:block;
+	position: relative;
+}*/
+hr{
+	color: lightgray;
+}
+.mdc-menu{
+	margin: 0 auto;
+}
+.colorcard{
+	background-color:orange;
+}
+/*.mdc-snackbar{
+	display: block;
+}*/
+/*.mdc-snackbar__surface{
+	opacity: 1;
+}
+.mdc-list-item__graphic{
+	margin-right: 5px;
+}*/

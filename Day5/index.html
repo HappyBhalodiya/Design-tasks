@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 5</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+</head>
+<body>
+  <div class="mdc-drawer__header">
+  	<header class="mdc-top-app-bar app-bar" id="app-bar">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+
+          <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <!--   <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">email</a> -->
+          <img src="img/1.png" class="imgGmail">
+          <span class="mdc-top-app-bar__title">Gmail</span>
+          <div class="mdc-text-field  name">
+           <img src="img/2.png" class="imgSearch">
+           <input class="mdc-text-field__input"
+           type="text"
+           placeholder="Search mail..."
+           aria-label="Full-Width Text Field">
+         </div>
+       </section>
+     </div>
+   </header>
+ </div>
+ <aside class="mdc-drawer mdc-drawer--dismissible">
+
+  <div class="mdc-drawer__content">
+    <div class="mdc-list">
+      <a class="mdc-list-item mdc-list-item--activated" href="#" aria-selected="true">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
+        <span class="mdc-list-item__text">Inbox</span>
+      </a>
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star</i>
+        <span class="mdc-list-item__text">Star</span>
+      </a>
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+        <span class="mdc-list-item__text">Sent Mail</span>
+      </a>
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+        <span class="mdc-list-item__text">Drafts</span>
+      </a>
+    </div>
+    <div class="mdc-list">
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">email</i>
+        <span class="mdc-list-item__text">All Mail</span>
+      </a>
+
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">delete</i>
+        <span class="mdc-list-item__text">Trash</span>
+      </a>
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">new_releases</i>
+        <span class="mdc-list-item__text">Spam</span>
+      </a>
+    </div>
+
+  </div>
+</aside>	
+<div class="mdc-drawer-app-content">
+
+
+
+
+
+  <main class="main-content" id="main-content">
+    <div class="mdc-top-app-bar--fixed-adjust">
+
+
+      <div class="mdc-tab-bar " role="tablist">
+       <div class="mdc-tab-scroller">
+
+        <div class="mdc-tab-scroller__scroll-area">
+         <div class="mdc-tab-scroller__scroll-content">
+          <button class="mdc-tab mdc-tab--active " role="tab" aria-selected="true" tabindex="0">
+           <span class="mdc-tab__content">
+            <span class="mdc-tab__icon material-icons" aria-hidden="true">inbox
+            </span>
+            <span class="mdc-tab__text-label">Primary</span>
+          </span>
+          <span class="mdc-tab-indicator mdc-tab-indicator--active">
+           <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+         </span>
+         <span class="mdc-tab__ripple"></span>
+       </button>
+
+       <button class="mdc-tab " role="tab" aria-selected="true" tabindex="0">
+         <span class="mdc-tab__content">
+           <span class="mdc-tab__icon material-icons" aria-hidden="true">group</span>
+           <span class="mdc-tab__text-label">Social</span>
+         </span>
+         <span class="mdc-tab-indicator">
+          <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+        </span>
+        <span class="mdc-tab__ripple"></span>
+      </button>
+      <button class="mdc-tab  " role="tab" aria-selected="true" tabindex="0">
+        <span class="mdc-tab__content">
+          <span class="mdc-tab__icon material-icons" aria-hidden="true">loyalty</span>
+          <span class="mdc-tab__text-label">Pramotion</span>
+        </span>
+        <span class="mdc-tab-indicator">
+          <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+        </span>
+        <span class="mdc-tab__ripple"></span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<ul class="mdc-list">
+
+  <li class="mdc-list-item" tabindex="0">
+    <div class="mdc-layout-grid__inner">
+     <div class="mdc-layout-grid__cell--span-3">
+      <input type="checkbox" class="checkbox">
+      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+      <span class="mdc-list-item__text mdc-typography--headline">Happy Bhalodiya</span>
+    </div>
+    <div class="mdc-layout-grid__cell--span-8"><p><b>Security alert</b></p></div>
+  <div class="mdc-layout-grid__cell--span-1" ><span class="p2">Feb-12</span></div>
+  </div>
+</li>
+
+<li role="separator" class="mdc-list-divider"></li>
+
+  <li class="mdc-list-item" tabindex="0">
+    <div class="mdc-layout-grid__inner">
+     <div class="mdc-layout-grid__cell--span-3">
+      <input type="checkbox" class="checkbox">
+      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+      <span class="mdc-list-item__text mdc-typography--headline">Happy Bhalodiya</span>
+    </div>
+    <div class="mdc-layout-grid__cell--span-8"><p><b>Security alert</b></p></div>
+  <div class="mdc-layout-grid__cell--span-1" ><span class="p2">Feb-12</span></div>
+  </div>
+</li>
+<li role="separator" class="mdc-list-divider"></li>
+
+   <li class="mdc-list-item" tabindex="0">
+    <div class="mdc-layout-grid__inner">
+     <div class="mdc-layout-grid__cell--span-3">
+      <input type="checkbox" class="checkbox">
+      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+      <span class="mdc-list-item__text mdc-typography--headline">Happy Bhalodiya</span>
+    </div>
+    <div class="mdc-layout-grid__cell--span-8"><p><b>Security alert</b></p></div>
+  <div class="mdc-layout-grid__cell--span-1" ><span class="p2">Feb-12</span></div>
+  </div>
+</li>
+</li>
+<li role="separator" class="mdc-list-divider"></li>
+  <li class="mdc-list-item" tabindex="0">
+    <div class="mdc-layout-grid__inner">
+     <div class="mdc-layout-grid__cell--span-3">
+      <input type="checkbox" class="checkbox">
+      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+      <span class="mdc-list-item__text mdc-typography--headline">Happy Bhalodiya</span>
+    </div>
+    <div class="mdc-layout-grid__cell--span-8"><p><b>Security alert</b></p></div>
+  <div class="mdc-layout-grid__cell--span-1" ><span class="p2">Feb-12</span></div>
+  </div>
+</li>
+</li>
+</ul>
+<hr class="mdc-list-divider">
+</div>
+</main>
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+
+.main{
+	padding: 20px;
+	background-color: #ccc
+}
+.div1{
+	
+	padding: 150px;	
+	
+	background-image: url("../img/2.jpeg.jpg");
+	
+}
+
+.box{
+	background-color: red;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+	width: 250px;
+	padding: 35px;
+	margin:20px;
+
+
+}
+
+.button1{
+	
+	color: white;
+	border-radius: 8px;
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+} 
+p{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+
+
+}
+img{
+	width:304px ;
+	height:236px;
+	margin: 5px;
+}
+.row{
+	
+	margin: 0px;
+	padding: 20px;
+	margin-top: 8px;
+	
+
+}
+.fas{
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+footer{
+	background-color: blue;
+	color: white;
+}

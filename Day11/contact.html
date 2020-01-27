@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+	<div class="mdc-card contactCard">
+		<h1 style="text-align: center;">Contact Form</h1>
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-12">
+				<div class="mdc-text-field mdc-text-field--outlined email">
+					<input type="text" id="tf-outlined" class="mdc-text-field__input">
+					<div class="mdc-notched-outline">
+						<div class="mdc-notched-outline__leading"></div>
+						<div class="mdc-notched-outline__notch">
+							<label for="tf-outlined" class="mdc-floating-label">Email</label>
+						</div>
+						<div class="mdc-notched-outline__trailing"></div>
+					</div>
+				</div>
+				<div class="mdc-text-field mdc-text-field--outlined contactno">
+					<input type="text" id="tf-outlined" class="mdc-text-field__input">
+					<div class="mdc-notched-outline">
+						<div class="mdc-notched-outline__leading"></div>
+						<div class="mdc-notched-outline__notch">
+							<label for="tf-outlined" class="mdc-floating-label">Contact No</label>
+						</div>
+						<div class="mdc-notched-outline__trailing"></div>
+					</div>
+				</div>
+
+				<center>
+					<div class="submitbtn">
+						<button class="mdc-button mdc-button--raised">
+							<span class="mdc-button__label">Submit</span>
+						</button>
+					</div>
+				</center>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			textField = mdc.textField.MDCTextField.attachTo(document.querySelector('.contactno'));
+			textField = mdc.textField.MDCTextField.attachTo(document.querySelector('.email'));
+		</script>
+	</body>
+	</html>

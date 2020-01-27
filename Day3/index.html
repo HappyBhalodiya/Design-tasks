@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day3</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/index.js"></script>
+
+
+</head>
+
+<body>
+	<header>
+		<div class="header-top">
+			<div class="social">
+				<i class="fa fa-facebook-f fa-2x" title="Facbook!"></i>
+				<i class="fa fa-instagram fa-2x" title="Instagram!"></i>
+				<i class="fa fa-twitter fa-2x" title="Twitter!"></i>
+			</div>
+			<div class="details">
+				<a href="tel:1234567890"><span class="glyphicon glyphicon-earphone"></span>1234567890	
+				</a>
+				<a href="mailto:abc@gmail.com" class="email"><span class="fa fa-google-plus-square"></span>    abc@gmail.com
+				</a>
+			</div>
+		</div>
+		<div class="header-bottam">
+			<div class="imghader">
+				<img src="./img/1.jpeg" alt="logo" class="imglogo">
+			</div>
+			<div class="spart">
+
+				<a  href="#">Home</a>
+
+				<a   class="dropbtn" onclick="myFunction()">Solution <i class="fa fa-caret-down"></i></a>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+				<div class="dropdown1">
+					<a class="dropbtn1">Services<i class="fa fa-caret-down"></i></a>
+					<div class="dropdowncontent">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div> 
+
+				<input type="text" name="search" onfocus="myfunction(this)" 
+				onblur="blurFunction()" id="search" placeholder="Search...">
+				<button onclick="myFunction1()" class="searchbtn"> <i class="glyphicon glyphicon-search"  ></i></button>
+				
+
+
+			</div>
+		</header>
+
+	<section>
+		<div class="tabs_div">
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#tab-1">Tab-1</a></li>
+				<li><a data-toggle="tab" href="#tab-2">Tab-2</a></li>
+				<li><a data-toggle="tab" href="#tab-3">Tab-3</a></li>
+				<li class="disabled disabledTab"><a href="#">Tab- 4</a></li>
+			</ul>
+			<div class="tab-content">
+				<div id="tab-1" class="tab-pane fade in active">
+					<div class="img_box">
+						<div class="img_container">
+
+							<img src="img/2.jpeg">
+
+						</div>
+					</div>
+				</div>
+				<div id="tab-2" class="tab-pane fade">
+					<div class="img_box">
+						<div class="img_container">
+
+							<img src="img/3.jpeg">
+
+						</div>
+					</div>
+				</div>
+				<div id="tab-3" class="tab-pane fade ">
+					<div class="img_box">
+						<div class="img_container">
+
+							<img src="img/4.jpeg">
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	</script>
+</body>
+</html>

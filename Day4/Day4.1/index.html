@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day4.1</title>
+	<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+	<script  src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<div class="mdc-card mdc-card--outlined">
+		<h2 class="card-title">Property Registration</h2> 
+
+
+		<div class="mdc-tab-bar " role="tablist">
+			<div class="mdc-tab-scroller">
+				<div class="mdc-tab-scroller__scroll-area">
+					<div class="mdc-tab-scroller__scroll-content">
+						<button class="mdc-tab mdc-tab--active " role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true"></span>
+								<span class="mdc-tab__text-label">Tab 1</span>
+							</span>
+							<span class="mdc-tab-indicator mdc-tab-indicator--active">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+
+						<button class="mdc-tab " role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true"></span>
+								<span class="mdc-tab__text-label">Tab 2</span>
+							</span>
+							<span class="mdc-tab-indicator ">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+						<button class="mdc-tab  " role="tab" aria-selected="true" tabindex="0">
+							<span class="mdc-tab__content">
+								<span class="mdc-tab__icon material-icons" aria-hidden="true"></span>
+								<span class="mdc-tab__text-label">Tab 3</span>
+							</span>
+							<span class="mdc-tab-indicator ">
+								<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+							</span>
+							<span class="mdc-tab__ripple"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="mdc-text-field name">
+			<input type="text" id="my-text-field" class="mdc-text-field__input">
+			<label class="mdc-floating-label" for="my-text-field">Property Name</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		
+		<div class="mdc-text-field address">
+			<input type="text" id="my-text-field" class="mdc-text-field__input">
+			<label class="mdc-floating-label" for="my-text-field">Property Address</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+
+		<div class="mdc-text-field country">
+			<input type="text" id="my-text-field" class="mdc-text-field__input">
+			<label class="mdc-floating-label" for="my-text-field">Country</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell">
+					<div class="mdc-switch switch1">
+						<div class="mdc-switch__track"></div>
+						<div class="mdc-switch__thumb-underlay">
+							<div class="mdc-switch__thumb">
+								<input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+							</div>
+						</div>
+					</div>
+					<label for="basic-switch">Swimming-pull</label>
+				</div>
+				<div class="mdc-layout-grid__cell">
+					<div class="mdc-switch switch2">
+						<div class="mdc-switch__track"></div>
+						<div class="mdc-switch__thumb-underlay">
+							<div class="mdc-switch__thumb">
+								<input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+							</div>
+						</div>
+					</div>
+					<label for="basic-switch">Garden</label>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4">
+				<button class="mdc-button mdc-button--raised button1">
+					<span class="mdc-button__label">Signup</span>
+
+				</button>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<button class="mdc-button mdc-button--raised button2">
+					<span class="mdc-button__label">Login</span>
+				</button>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<button class="mdc-button mdc-button--raised button3">
+					<span class="mdc-button__label">Reset</span>
+				</button>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
